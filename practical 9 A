@@ -1,0 +1,23 @@
+// name khan shehzad naushad 
+// 10-10-22
+/*
+9.A find sum of digit of a given number
+*/
+#include <stdio.h>
+int main()
+{
+    int i,n,m;
+    int sum=0;
+    printf("Enter number :");
+    scanf("%d",&n);
+
+    for (i=1 ; n!=0 ; i++)
+    {
+        m=n%10;           //remainder
+        sum=sum + m;      //sum
+        n =n/10;          // quotient
+    }
+    printf("sum=%d", sum);
+
+    
+}
