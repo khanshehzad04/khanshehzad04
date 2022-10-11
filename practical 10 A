@@ -1,0 +1,24 @@
+// name khan shehzad naushad 
+// date 11/10/22
+/*
+10 A find fibonacci series for given number 
+*/
+// fibonacci series - 0 1 1 2 3 5 8 13 . . .
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf ("Enter a number : ");
+    scanf ("%d",&n);
+    int a =0;
+    int b =1;
+    int c =0;
+    
+    for (int i=1;i<=1;i++)
+    {
+        scanf("%d",&a);
+    c=a+b;
+    a=b;
+    b=c;
+    }
+}
